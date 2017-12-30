@@ -11578,6 +11578,53 @@ ModelImporter:
     4300180: NurbsPath.002
     4300182: NurbsPath.003
     4300184: NurbsPath
+    4300186: Cadeira.002
+    4300188: Car.001
+    4300190: Fallen Log
+    4300192: WheelCart
+    4300194: CarrinhoChoque001
+    4300196: Water005
+    4300198: Tree Leaves 141
+    4300200: Tree 141
+    4300202: Tree Leaves 170.018
+    4300204: Tree 170.018
+    4300206: Stone Medium 001
+    4300208: Stone Medium 003
+    4300210: Estalactite2
+    4300212: Estalactite1
+    4300214: Estalactite4
+    4300216: Banco002
+    4300218: Counter1
+    4300220: FoozballMachine
+    4300222: PinballMachine
+    4300224: ArcadeMachine
+    4300226: ArcadeMachineCar
+    4300228: AirHoockeyMachine001
+    4300230: Bin Big 001
+    4300232: Bin Small 001
+    4300234: FenceSmall
+    4300236: Fence001
+    4300238: Poste002
+    4300240: RoloteFarturas
+    4300242: Box
+    4300244: Popcorn Machine
+    4300246: Barrel
+    4300248: Mesa
+    4300250: Loja001
+    4300252: Loja002
+    4300254: Tenda3.001
+    4300256: FonteSmall.001
+    4300258: TicketBooth
+    4300260: Tree Leaves 152
+    4300262: Tree 152
+    4300264: Stone Giant 001
+    4300266: Stone Giant 032
+    4300268: Stone Big 001
+    4300270: Stone Small 001
+    4300272: Stone Small 002
+    4300274: 1Bush
+    4300276: 2Bush
+    4300278: 4Bush
     7400000: Camera.001|Camera.001Action.001
     9500000: //RootNode
     10800000: Sun
