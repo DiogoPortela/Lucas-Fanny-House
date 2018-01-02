@@ -2905,6 +2905,7 @@ ModelImporter:
     105794: Roulotes
     105796: Tendas
     105798: Lampeao
+    105800: Road.001
     400000: 1Bush
     400002: 1Bush.001
     400004: 1Bush.002
@@ -5805,6 +5806,7 @@ ModelImporter:
     405794: Roulotes
     405796: Tendas
     405798: Lampeao
+    405800: Road.001
     2000000: Camera
     2000002: Camera.001
     2300000: 1Bush
@@ -8670,6 +8672,7 @@ ModelImporter:
     2305720: WheelCart.015
     2305722: Witch Machine
     2305724: Lampeao
+    2305726: Road.001
     3300000: 1Bush
     3300002: 1Bush.001
     3300004: 1Bush.002
@@ -11533,6 +11536,7 @@ ModelImporter:
     3305720: WheelCart.015
     3305722: Witch Machine
     3305724: Lampeao
+    3305726: Road.001
     4300000: Stone Giant 069.035
     4300002: Stone Giant 072.005
     4300004: 4Bush.109
@@ -11674,6 +11678,7 @@ ModelImporter:
     4300276: 2Bush
     4300278: 4Bush
     4300280: Lampeao
+    4300282: Road.001
     7400000: Camera.001|Camera.001Action.001
     9500000: //RootNode
     10800000: Sun
@@ -11856,6 +11861,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Lampeao
+    second: {fileID: 2100000, guid: 8f49c3c5748b8014fbe44e531b9b2708, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Leaves
     second: {fileID: 2100000, guid: fc8af2cec3b531c4994e6f3e6257e0e5, type: 2}
   - first:
@@ -11888,6 +11898,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: 'Material #8.001'
     second: {fileID: 2100000, guid: 845294d8cb7763749bc0af8ffbb88322, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 21f2ffa8e1c250f4bbe4451d4f8bd070, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
