@@ -3,7 +3,7 @@ guid: 8c228462d3a5bdc4384d5fb63bfc2888
 timeCreated: 1514651833
 licenseType: Free
 ModelImporter:
-  serializedVersion: 21
+  serializedVersion: 22
   fileIDToRecycleName:
     100000: 1Bush
     100002: 1Bush.001
@@ -2882,6 +2882,29 @@ ModelImporter:
     105748: WheelCart.014
     105750: WheelCart.015
     105752: Witch Machine
+    105754: Arbustos
+    105756: Arvores
+    105758: Barris
+    105760: Bilheteiras
+    105762: Cadeiras
+    105764: Caixas
+    105766: Caixotes Lixo
+    105768: Carros
+    105770: Cena3.001
+    105772: Fontes
+    105774: Grades
+    105776: GradesPequenas
+    105778: Lojas
+    105780: Maquinas Pipocas
+    105782: Natureza
+    105784: Pedras_Grandes
+    105786: Pedras_Medias
+    105788: Pedras_Medias2
+    105790: Pedras_pequena
+    105792: Postes
+    105794: Roulotes
+    105796: Tendas
+    105798: Lampeao
     400000: 1Bush
     400002: 1Bush.001
     400004: 1Bush.002
@@ -5759,6 +5782,29 @@ ModelImporter:
     405748: WheelCart.014
     405750: WheelCart.015
     405752: Witch Machine
+    405754: Arbustos
+    405756: Arvores
+    405758: Barris
+    405760: Bilheteiras
+    405762: Cadeiras
+    405764: Caixas
+    405766: Caixotes Lixo
+    405768: Carros
+    405770: Cena3.001
+    405772: Fontes
+    405774: Grades
+    405776: GradesPequenas
+    405778: Lojas
+    405780: Maquinas Pipocas
+    405782: Natureza
+    405784: Pedras_Grandes
+    405786: Pedras_Medias
+    405788: Pedras_Medias2
+    405790: Pedras_pequena
+    405792: Postes
+    405794: Roulotes
+    405796: Tendas
+    405798: Lampeao
     2000000: Camera
     2000002: Camera.001
     2300000: 1Bush
@@ -8623,6 +8669,7 @@ ModelImporter:
     2305718: WheelCart.014
     2305720: WheelCart.015
     2305722: Witch Machine
+    2305724: Lampeao
     3300000: 1Bush
     3300002: 1Bush.001
     3300004: 1Bush.002
@@ -11485,6 +11532,7 @@ ModelImporter:
     3305718: WheelCart.014
     3305720: WheelCart.015
     3305722: Witch Machine
+    3305724: Lampeao
     4300000: Stone Giant 069.035
     4300002: Stone Giant 072.005
     4300004: 4Bush.109
@@ -11625,13 +11673,376 @@ ModelImporter:
     4300274: 1Bush
     4300276: 2Bush
     4300278: 4Bush
+    4300280: Lampeao
     7400000: Camera.001|Camera.001Action.001
     9500000: //RootNode
     10800000: Sun
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 02 - Default.003
+    second: {fileID: 2100000, guid: ae3cfd2e2c7156341bc19a70e9eb3457, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AirHockeyMachine
+    second: {fileID: 2100000, guid: 4a1f35dd374f145469dbf600b9e1607e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ArcadeCarMachine
+    second: {fileID: 2100000, guid: 8928b4bcff266ae4ea80c8c71c870083, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ArcadeMachine
+    second: {fileID: 2100000, guid: 7ce84311ebec53545a41b02330bf9e52, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ArcadeRoom
+    second: {fileID: 2100000, guid: 1171a9cec352b4d49a8bbf2513d8a188, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bancos
+    second: {fileID: 2100000, guid: 8cbf359fcdf566b4b9ddcfe60e6663d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barco
+    second: {fileID: 2100000, guid: 124eda76a2e646f40b7ff7d3e1b2fb0e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Berma
+    second: {fileID: 2100000, guid: 56e21f3fa0b55be49b1926e175478075, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BinBig
+    second: {fileID: 2100000, guid: 7d2dfced0326f164a9eaf64497c5bf6c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BinSmall
+    second: {fileID: 2100000, guid: bc916a4501ce09c418ceef7a6bb22ae7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box
+    second: {fileID: 2100000, guid: 0a20a6561caebfc4a95ed0fd420b43e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BruxaMachine
+    second: {fileID: 2100000, guid: dcd11e1791e509947bc6aaf353c61776, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bush3
+    second: {fileID: 2100000, guid: a74c447107e6455428fc90c85f5f0bd7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CARROCEL MATERIALS.002
+    second: {fileID: 2100000, guid: 0b7b167e2b20d4244a533313ec6a67ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cadeiras
+    second: {fileID: 2100000, guid: 3ed1505207eeed34496d432c4309f2ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Carro
+    second: {fileID: 2100000, guid: 221460a8b09b1e94a878c8d6c1d7ea77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CarroChoque
+    second: {fileID: 2100000, guid: a4df8c38397abbe4db78e663a89390db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Carrocel
+    second: {fileID: 2100000, guid: 588e658da6f660349bf0b3236c0bf22f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CarrocelCart
+    second: {fileID: 2100000, guid: 3c7a1735f8163a443a09586236a27d26, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cenario
+    second: {fileID: 2100000, guid: e062e55b7ac8e9d47ad0d5ac8544320c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cenario1
+    second: {fileID: 2100000, guid: 5da95230c98e41d49a82a40ad3cf862a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cork
+    second: {fileID: 2100000, guid: fc8af2cec3b531c4994e6f3e6257e0e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Counter
+    second: {fileID: 2100000, guid: caab42d925663414384146ad9e885a75, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Entrada
+    second: {fileID: 2100000, guid: 93d1d40e5ce15d444881a9472ebecea0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Escada
+    second: {fileID: 2100000, guid: 5703e61ae3a9bff4998bdd8d9baf82b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fabric Velvet - Red.003
+    second: {fileID: 2100000, guid: 3cb6ad16be4a8384787c9374811ae0c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Farturas
+    second: {fileID: 2100000, guid: 9a8a81d1e99abcc49b8fbac9486f8607, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fence
+    second: {fileID: 2100000, guid: a154944629de396418777e147d048224, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FenceSmall
+    second: {fileID: 2100000, guid: e1dd1a4bd0b1fc14fbc3fade8d951af3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FenceSmall.001
+    second: {fileID: 2100000, guid: 9ec98a2e11c46544e918415950d823ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fonte
+    second: {fileID: 2100000, guid: 5540636807a407741957d4b664fe3d4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FozzballMachine
+    second: {fileID: 2100000, guid: b8e40315718fc4d40a876c082d7d38c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gelo
+    second: {fileID: 2100000, guid: cb90d5ac12c0fda46b42285ce810ec2c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gruta
+    second: {fileID: 2100000, guid: adcdd09815d71df4893451b703d97d07, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GrutaFloor
+    second: {fileID: 2100000, guid: b8347171e17dd7d42a7b53c9d2ecd839, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Leaves
+    second: {fileID: 2100000, guid: fc8af2cec3b531c4994e6f3e6257e0e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lojas
+    second: {fileID: 2100000, guid: 2cdded44f060d11408c5230a21767e8a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: aa96110208a55f14abd79aa8b08ff15d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #128.002'
+    second: {fileID: 2100000, guid: a5f4c0e853b2de2489b2a8d471eee2d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #128.003'
+    second: {fileID: 2100000, guid: 9e5f8530e198db647b81a49b53c4e2aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #38.003'
+    second: {fileID: 2100000, guid: edb0301f82d5e424ab24431eac82fc3b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #8.001'
+    second: {fileID: 2100000, guid: 845294d8cb7763749bc0af8ffbb88322, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: 731dc2e1b26491840937354af4eeea3f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mesas
+    second: {fileID: 2100000, guid: e38a4c9038d24dc4488b039689251657, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal Iron Gray.002
+    second: {fileID: 2100000, guid: 208580401586bba488666c394f73f7f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal Iron Gray.003
+    second: {fileID: 2100000, guid: eb1cd3ac2f43f3f4783d0cc5b13433c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: b920b7e1b69c7fc4db1e15fbc10c67a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paint White.003
+    second: {fileID: 2100000, guid: 6c731cdfb4ed9284e9fdcddd94e43004, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PinballMachine
+    second: {fileID: 2100000, guid: 57114fcbd11d14c48a09f3f25eb8034d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plastic Smooth - Burnt Red.002
+    second: {fileID: 2100000, guid: fec322c98eb351043af905667c664102, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plastic Smooth - Burnt Red.003
+    second: {fileID: 2100000, guid: ec29a803d35fb654682fb0d4230b2810, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PopcornMachine
+    second: {fileID: 2100000, guid: e9f78919215395242ad9ab6a77cbe1a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Poste
+    second: {fileID: 2100000, guid: 847f8c972450bc7498a54c142ea06d52, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rail
+    second: {fileID: 2100000, guid: 0c7475fda3741cf4ab750bfbc8617a69, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Road
+    second: {fileID: 2100000, guid: 516bc98746bb75f47903af5acc3344f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stone Giant
+    second: {fileID: 2100000, guid: fc34a5613f178804b91d2bb7eeb1af1f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stone Giant.001
+    second: {fileID: 2100000, guid: 8d2258660c2b30745a3bce91b33d8974, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StoneBig.001
+    second: {fileID: 2100000, guid: 06f795543e0a51a46b318936d932fb6a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StoneGiant2
+    second: {fileID: 2100000, guid: 5ac43367ab8eb4e47b6b6870b49b4ecb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StoneMedium1.001
+    second: {fileID: 2100000, guid: 70d7b17cbc9733b41bf66091e1ef6738, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StoneMedium2.002
+    second: {fileID: 2100000, guid: d69e60528436473459dc3ff295115d72, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StoneSmall.001
+    second: {fileID: 2100000, guid: bc36318c023533d4c92fc24dcef4a6d5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StoneSmall.002
+    second: {fileID: 2100000, guid: 028aca691e61339428658a8e40abe1cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TendaCirco
+    second: {fileID: 2100000, guid: 363f4d90ce9a8264e8ca0163993cd3fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TicketBooth.001
+    second: {fileID: 2100000, guid: a122d317136ea894caf383c9759c4e86, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TicketBoothGlass
+    second: {fileID: 2100000, guid: f8bf096b16344a1488083c9034eaa332, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tunel
+    second: {fileID: 2100000, guid: 3cc773e9e96daa9409568a560dde60c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Water
+    second: {fileID: 2100000, guid: 44ebd8a3e897e974789171261ff2866a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wire
+    second: {fileID: 2100000, guid: a154944629de396418777e147d048224, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bush 4
+    second: {fileID: 2100000, guid: 7c10e4616a71e2c41b934380e345e5f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bush1
+    second: {fileID: 2100000, guid: 7e4f48c710d1c4d4ebe42a339144c5c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bush2
+    second: {fileID: 2100000, guid: 838c80bf27472864ca39375de66eef41, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -11644,6 +12055,7 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -11668,6 +12080,8 @@ ModelImporter:
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
