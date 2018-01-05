@@ -2906,6 +2906,36 @@ ModelImporter:
     105796: Tendas
     105798: Lampeao
     105800: Road.001
+    105802: Strairs_Entrance_Road.001
+    105804: Colliders
+    105806: TunnelCollider
+    105808: Stone Medium Collider
+    105810: StoneMedium1Collider
+    105812: PedraMedia1-1
+    105814: PedraMedia1-2
+    105816: PedraPequena1
+    105818: PedraPequena2
+    105820: Pedras_Big
+    105822: Pedras_Giant
+    105824: StoneGiant1
+    105826: StoneGiant2
+    105828: Cube
+    105830: Cube.001
+    105832: Cube.002
+    105834: Cube.003
+    105836: Cube.004
+    105838: Cube.005
+    105840: Cube.006
+    105842: Cube.007
+    105844: Cube.008
+    105846: Rails
+    105848: StoneBigCollider
+    105850: Estalactite1.002
+    105852: Estalactite2.013
+    105854: Estalactite3
+    105856: Estalactite4.002
+    105858: EntranceStairsCollider
+    105860: BermaCollider
     400000: 1Bush
     400002: 1Bush.001
     400004: 1Bush.002
@@ -5807,6 +5837,36 @@ ModelImporter:
     405796: Tendas
     405798: Lampeao
     405800: Road.001
+    405802: Strairs_Entrance_Road.001
+    405804: Colliders
+    405806: TunnelCollider
+    405808: Stone Medium Collider
+    405810: StoneMedium1Collider
+    405812: PedraMedia1-1
+    405814: PedraMedia1-2
+    405816: PedraPequena1
+    405818: PedraPequena2
+    405820: Pedras_Big
+    405822: Pedras_Giant
+    405824: StoneGiant1
+    405826: StoneGiant2
+    405828: Cube
+    405830: Cube.001
+    405832: Cube.002
+    405834: Cube.003
+    405836: Cube.004
+    405838: Cube.005
+    405840: Cube.006
+    405842: Cube.007
+    405844: Cube.008
+    405846: Rails
+    405848: StoneBigCollider
+    405850: Estalactite1.002
+    405852: Estalactite2.013
+    405854: Estalactite3
+    405856: Estalactite4.002
+    405858: EntranceStairsCollider
+    405860: BermaCollider
     2000000: Camera
     2000002: Camera.001
     2300000: 1Bush
@@ -8673,6 +8733,26 @@ ModelImporter:
     2305722: Witch Machine
     2305724: Lampeao
     2305726: Road.001
+    2305728: Strairs_Entrance_Road.001
+    2305730: TunnelCollider
+    2305732: Stone Medium Collider
+    2305734: StoneMedium1Collider
+    2305736: Cube
+    2305738: Cube.001
+    2305740: Cube.002
+    2305742: Cube.003
+    2305744: Cube.004
+    2305746: Cube.005
+    2305748: Cube.006
+    2305750: Cube.007
+    2305752: Cube.008
+    2305754: StoneBigCollider
+    2305756: Estalactite1.002
+    2305758: Estalactite2.013
+    2305760: Estalactite3
+    2305762: Estalactite4.002
+    2305764: EntranceStairsCollider
+    2305766: BermaCollider
     3300000: 1Bush
     3300002: 1Bush.001
     3300004: 1Bush.002
@@ -11537,6 +11617,26 @@ ModelImporter:
     3305722: Witch Machine
     3305724: Lampeao
     3305726: Road.001
+    3305728: Strairs_Entrance_Road.001
+    3305730: TunnelCollider
+    3305732: Stone Medium Collider
+    3305734: StoneMedium1Collider
+    3305736: Cube
+    3305738: Cube.001
+    3305740: Cube.002
+    3305742: Cube.003
+    3305744: Cube.004
+    3305746: Cube.005
+    3305748: Cube.006
+    3305750: Cube.007
+    3305752: Cube.008
+    3305754: StoneBigCollider
+    3305756: Estalactite1.002
+    3305758: Estalactite2.013
+    3305760: Estalactite3
+    3305762: Estalactite4.002
+    3305764: EntranceStairsCollider
+    3305766: BermaCollider
     4300000: Stone Giant 069.035
     4300002: Stone Giant 072.005
     4300004: 4Bush.109
@@ -11679,6 +11779,16 @@ ModelImporter:
     4300278: 4Bush
     4300280: Lampeao
     4300282: Road.001
+    4300284: Strairs_Entrance_Road.001
+    4300286: TunnelCollider
+    4300288: Stone Medium Collider
+    4300290: StoneMedium1Collider
+    4300292: Cube
+    4300294: Cube.008
+    4300296: StoneBigCollider
+    4300298: Estalactite3
+    4300300: EntranceStairsCollider
+    4300302: BermaCollider
     7400000: Camera.001|Camera.001Action.001
     9500000: //RootNode
     10800000: Sun
@@ -11721,6 +11831,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Barco.001
+    second: {fileID: 2100000, guid: 405c9405c027e4e40b03c52bf96295ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Berma
     second: {fileID: 2100000, guid: 56e21f3fa0b55be49b1926e175478075, type: 2}
   - first:
@@ -11758,6 +11873,16 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Cadeiras
     second: {fileID: 2100000, guid: 3ed1505207eeed34496d432c4309f2ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cadeiras.001
+    second: {fileID: 2100000, guid: 4e1c957bbb426754eabea57744703ee6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Car
+    second: {fileID: 2100000, guid: 05355cbd06ec6fa43aecd99bff02054f, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -11808,6 +11933,21 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Escada
     second: {fileID: 2100000, guid: 5703e61ae3a9bff4998bdd8d9baf82b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Escadas
+    second: {fileID: 2100000, guid: 380f3bae9ba1a4b478c5a838f0cdd152, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Escadas.001
+    second: {fileID: 2100000, guid: 9e1c76345f91dd44991345c1c386cd49, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Estalactite
+    second: {fileID: 2100000, guid: dcb8fca5ea4cbff4fb7238985196d731, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -12033,6 +12173,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Water
     second: {fileID: 2100000, guid: 44ebd8a3e897e974789171261ff2866a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wheels
+    second: {fileID: 2100000, guid: d08071a7d9ed4a6479990f9d1981348b, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
