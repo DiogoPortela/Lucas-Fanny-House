@@ -2936,6 +2936,9 @@ ModelImporter:
     105856: Estalactite4.002
     105858: EntranceStairsCollider
     105860: BermaCollider
+    105862: GeloCar
+    105864: StoneGiantCollider
+    105866: StoneGiantCollider2
     400000: 1Bush
     400002: 1Bush.001
     400004: 1Bush.002
@@ -5867,6 +5870,9 @@ ModelImporter:
     405856: Estalactite4.002
     405858: EntranceStairsCollider
     405860: BermaCollider
+    405862: GeloCar
+    405864: StoneGiantCollider
+    405866: StoneGiantCollider2
     2000000: Camera
     2000002: Camera.001
     2300000: 1Bush
@@ -8753,6 +8759,9 @@ ModelImporter:
     2305762: Estalactite4.002
     2305764: EntranceStairsCollider
     2305766: BermaCollider
+    2305768: GeloCar
+    2305770: StoneGiantCollider
+    2305772: StoneGiantCollider2
     3300000: 1Bush
     3300002: 1Bush.001
     3300004: 1Bush.002
@@ -11637,6 +11646,9 @@ ModelImporter:
     3305762: Estalactite4.002
     3305764: EntranceStairsCollider
     3305766: BermaCollider
+    3305768: GeloCar
+    3305770: StoneGiantCollider
+    3305772: StoneGiantCollider2
     4300000: Stone Giant 069.035
     4300002: Stone Giant 072.005
     4300004: 4Bush.109
@@ -11789,6 +11801,9 @@ ModelImporter:
     4300298: Estalactite3
     4300300: EntranceStairsCollider
     4300302: BermaCollider
+    4300304: GeloCar
+    4300306: StoneGiantCollider
+    4300308: StoneGiantCollider2
     7400000: Camera.001|Camera.001Action.001
     9500000: //RootNode
     10800000: Sun
@@ -11883,6 +11898,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Car
     second: {fileID: 2100000, guid: 05355cbd06ec6fa43aecd99bff02054f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Carrinhos
+    second: {fileID: 2100000, guid: 8fc1dfc4d8d09494bbf4fa04fc731509, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -12013,6 +12033,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Lojas
     second: {fileID: 2100000, guid: 2cdded44f060d11408c5230a21767e8a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Maquina
+    second: {fileID: 2100000, guid: ad8c2fe5148a6a049976d2bdbde8010d, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
