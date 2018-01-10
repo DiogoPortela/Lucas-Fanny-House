@@ -8762,6 +8762,7 @@ ModelImporter:
     2305768: GeloCar
     2305770: StoneGiantCollider
     2305772: StoneGiantCollider2
+    2305774: //RootNode
     3300000: 1Bush
     3300002: 1Bush.001
     3300004: 1Bush.002
@@ -11649,6 +11650,7 @@ ModelImporter:
     3305768: GeloCar
     3305770: StoneGiantCollider
     3305772: StoneGiantCollider2
+    3305774: //RootNode
     4300000: Stone Giant 069.035
     4300002: Stone Giant 072.005
     4300004: 4Bush.109
