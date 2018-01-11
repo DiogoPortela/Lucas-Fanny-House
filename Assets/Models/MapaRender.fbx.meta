@@ -2939,6 +2939,8 @@ ModelImporter:
     105862: GeloCar
     105864: StoneGiantCollider
     105866: StoneGiantCollider2
+    105868: Witch Machine.001
+    105870: FoozballMachine.001
     400000: 1Bush
     400002: 1Bush.001
     400004: 1Bush.002
@@ -5873,6 +5875,8 @@ ModelImporter:
     405862: GeloCar
     405864: StoneGiantCollider
     405866: StoneGiantCollider2
+    405868: Witch Machine.001
+    405870: FoozballMachine.001
     2000000: Camera
     2000002: Camera.001
     2300000: 1Bush
@@ -8763,6 +8767,8 @@ ModelImporter:
     2305770: StoneGiantCollider
     2305772: StoneGiantCollider2
     2305774: //RootNode
+    2305776: Witch Machine.001
+    2305778: FoozballMachine.001
     3300000: 1Bush
     3300002: 1Bush.001
     3300004: 1Bush.002
@@ -11651,6 +11657,8 @@ ModelImporter:
     3305770: StoneGiantCollider
     3305772: StoneGiantCollider2
     3305774: //RootNode
+    3305776: Witch Machine.001
+    3305778: FoozballMachine.001
     4300000: Stone Giant 069.035
     4300002: Stone Giant 072.005
     4300004: 4Bush.109
@@ -11806,6 +11814,7 @@ ModelImporter:
     4300304: GeloCar
     4300306: StoneGiantCollider
     4300308: StoneGiantCollider2
+    4300310: Witch Machine.001
     7400000: Camera.001|Camera.001Action.001
     9500000: //RootNode
     10800000: Sun
@@ -11814,7 +11823,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: 02 - Default.003
-    second: {fileID: 2100000, guid: ae3cfd2e2c7156341bc19a70e9eb3457, type: 2}
+    second: {fileID: 2100000, guid: 16187a9f09aa00a45992366718c076e3, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -11853,6 +11862,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: BarcoMetal
+    second: {fileID: 2100000, guid: d36be0f61eb803c4b8ae72ecef9cae7a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Berma
     second: {fileID: 2100000, guid: 56e21f3fa0b55be49b1926e175478075, type: 2}
   - first:
@@ -11875,6 +11889,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: BruxaMachine
     second: {fileID: 2100000, guid: dcd11e1791e509947bc6aaf353c61776, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BruxaMachine.002
+    second: {fileID: 2100000, guid: 95e53b751ed17a849af1bac13aee0647, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -11905,6 +11924,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Carrinhos
     second: {fileID: 2100000, guid: 8fc1dfc4d8d09494bbf4fa04fc731509, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CarrinhosChoque
+    second: {fileID: 2100000, guid: 6ad0906d35c99cf438cec80fd3307d4f, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -11968,6 +11992,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Escadas.002
+    second: {fileID: 2100000, guid: cf459b050a04c8b47aae509cd434ab85, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Estalactite
     second: {fileID: 2100000, guid: dcb8fca5ea4cbff4fb7238985196d731, type: 2}
   - first:
@@ -12003,6 +12032,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: FonteSmall
+    second: {fileID: 2100000, guid: bc5f3198b56384640a79d04aac9ea8c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: FozzballMachine
     second: {fileID: 2100000, guid: b8e40315718fc4d40a876c082d7d38c0, type: 2}
   - first:
@@ -12010,6 +12044,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Gelo
     second: {fileID: 2100000, guid: cb90d5ac12c0fda46b42285ce810ec2c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GeloCarros
+    second: {fileID: 2100000, guid: 0c072ba7b3f805743b0864a39cd5461e, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -12038,18 +12077,23 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Lojas2
+    second: {fileID: 2100000, guid: a87dbc9d581eeb941be8faf7e92a08af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Maquina
     second: {fileID: 2100000, guid: ad8c2fe5148a6a049976d2bdbde8010d, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material
-    second: {fileID: 2100000, guid: aa96110208a55f14abd79aa8b08ff15d, type: 2}
+    second: {fileID: 2100000, guid: c3681494e70e84a418898dd2598fd95a, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: 'Material #128.002'
-    second: {fileID: 2100000, guid: a5f4c0e853b2de2489b2a8d471eee2d0, type: 2}
+    second: {fileID: 2100000, guid: fa2742f8f27f89840bb1a1f9c91c7e3a, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -12059,7 +12103,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: 'Material #38.003'
-    second: {fileID: 2100000, guid: edb0301f82d5e424ab24431eac82fc3b, type: 2}
+    second: {fileID: 2100000, guid: b57039bf17789004aa55702ef35f7ec6, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -12069,12 +12113,17 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material.001
-    second: {fileID: 2100000, guid: 21f2ffa8e1c250f4bbe4451d4f8bd070, type: 2}
+    second: {fileID: 2100000, guid: c586b6a8fc94bfa429150263d00e3b40, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material.002
     second: {fileID: 2100000, guid: 731dc2e1b26491840937354af4eeea3f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.003
+    second: {fileID: 2100000, guid: c486aa97aa1d61b469fb798ef78ba926, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -12084,7 +12133,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Metal Iron Gray.002
-    second: {fileID: 2100000, guid: 208580401586bba488666c394f73f7f6, type: 2}
+    second: {fileID: 2100000, guid: 8c8e92988d0bee44a8ee7081ec99bdaa, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -12094,12 +12143,12 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: No Name
-    second: {fileID: 2100000, guid: b920b7e1b69c7fc4db1e15fbc10c67a6, type: 2}
+    second: {fileID: 2100000, guid: 85497e500e7f319478e9c26eae11c94d, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Paint White.003
-    second: {fileID: 2100000, guid: 6c731cdfb4ed9284e9fdcddd94e43004, type: 2}
+    second: {fileID: 2100000, guid: 438f98a5e5505694e9792862dfb234c4, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -12109,7 +12158,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Plastic Smooth - Burnt Red.002
-    second: {fileID: 2100000, guid: fec322c98eb351043af905667c664102, type: 2}
+    second: {fileID: 2100000, guid: b03d9f5e2c00ce241b202acd27ea9c32, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -12184,7 +12233,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: TicketBooth.001
-    second: {fileID: 2100000, guid: a122d317136ea894caf383c9759c4e86, type: 2}
+    second: {fileID: 2100000, guid: 7e527658d28488a42bc83ada95c30d8f, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -12193,8 +12242,18 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Torre
+    second: {fileID: 2100000, guid: 659a0db8b34cb364daa5b10aa625ac09, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Tunel
     second: {fileID: 2100000, guid: 3cc773e9e96daa9409568a560dde60c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tunel.001
+    second: {fileID: 2100000, guid: ceb491aeb1efaae40bb30d622920f56d, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
