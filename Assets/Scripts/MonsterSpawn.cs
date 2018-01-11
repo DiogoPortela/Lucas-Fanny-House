@@ -7,16 +7,21 @@ public class MonsterSpawn : MonoBehaviour
 {
 
     public GameObject spawner;
-    private List<Transform> spawnPoints;
+    private static List<Transform> spawnPoints;
 
-    public GameObject enemyPrefab;
-    private static List<GameObject> enemies;
+    public  GameObject enemyPrefab;
+    private static GameObject enemyPrefabStatic;
+    public static List<GameObject> enemies;
 
     public GameObject player;
     public GameObject parent;
+    private static GameObject parentStatic;
 
     private void Start()
     {
+        enemyPrefabStatic = enemyPrefab;
+        parentStatic = parent;
+
         spawnPoints = new List<Transform>();
         enemies = new List<GameObject>();
 
@@ -27,15 +32,16 @@ public class MonsterSpawn : MonoBehaviour
                 spawnPoints.Add(t);
             }
         }
-
-        Spawn();
     }
 
-    private void Spawn()
+    public static void Spawn(int count = 1)
     {
-        foreach(Transform t in spawnPoints)
+        for(int i = 0; i < count; i++)
         {
-            enemies.Add(Instantiate(enemyPrefab, t.position, t.rotation, parent.transform));
+            foreach (Transform t in spawnPoints)
+            {
+                enemies.Add(Instantiate(enemyPrefabStatic, t.position, t.rotation, parentStatic.transform));
+            }
         }
     }
 
@@ -43,6 +49,7 @@ public class MonsterSpawn : MonoBehaviour
     {
         if (enemies.Contains(obj))
             enemies.Remove(obj);
+
     }
 
     private void Update()
