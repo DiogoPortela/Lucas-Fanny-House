@@ -4,6 +4,6 @@ using UnityEngine;
 
 public class MaskRotation : MonoBehaviour {
 	void Update () {
-        this.transform.Rotate(0, 1.0f, 0);
+        this.transform.Rotate(0, 0.0f, 1.0f);
 	}
 }
