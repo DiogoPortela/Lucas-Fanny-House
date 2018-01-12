@@ -13,7 +13,22 @@ ModelImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: Plane
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body
+    second: {fileID: 2100000, guid: 47a750f5dd0ca174ab375258558e7b4c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Eyes
+    second: {fileID: 2100000, guid: c5410e8aead81ef4e8b4ff334eb71de0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mask
+    second: {fileID: 2100000, guid: 09c0f2eb0a8a62a40ba229d693440327, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
