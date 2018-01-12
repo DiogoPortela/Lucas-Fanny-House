@@ -8,6 +8,8 @@ public class Shooting : MonoBehaviour
     public GameObject bulletPrefab;
     public float shootingForce;
     public GameObject parent;
+    public AudioClip sound;
+    public AudioSource source;
 
     private static List<GameObject> bullets;
 
@@ -30,6 +32,7 @@ public class Shooting : MonoBehaviour
         {
             GameObject newBullet = Instantiate(bulletPrefab, target.transform.position, target.transform.rotation, parent.transform);
             bullets.Add(newBullet);
+            source.PlayOneShot(sound, 0.8f);
         }
 
         foreach (GameObject obj in bullets)
