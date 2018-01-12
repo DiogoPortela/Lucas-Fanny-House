@@ -18,16 +18,18 @@ public class Player : MonoBehaviour {
         }
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnControllerColliderHit(ControllerColliderHit hit)
     {
-        if (collision.gameObject.tag == "Enemy")
+        if (hit.gameObject.tag == "Enemy")
         {
             HP--;
-            if(HP == 0){
+            if (HP == 0)
+            {
                 ScoreManager.Loss();
             }
         }
     }
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Gun")
